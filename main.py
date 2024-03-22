@@ -12,7 +12,7 @@ today = datetime.date.today()  # gets today's date
 age = today.year - birthdate.year - (
     (today.month, today.day) < (birthdate.month, birthdate.day)
 )  # gets your age
-newAge = age + 1
+newAge = age + 1 # adds 1 to your age for if your birthday is soon
 name = f"{fName} {lName}"  # your name
 
 if (birthdate.month < today.month):  # if your birthday has passed
