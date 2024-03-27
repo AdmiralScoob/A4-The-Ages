@@ -26,3 +26,4 @@ elif (birthdate.month == today.month):  # if you birthday is this month
     print(f"It's your birthday soon {name}, You will be {newAge} years old.")
   else:  # if you birthday has passed this month
     print(f"Happy belated birthday {name}, You are {age} years old.")
+exit()
